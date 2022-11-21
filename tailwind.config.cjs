@@ -14,6 +14,9 @@ module.exports = {
       fontFamily: {
         sans: ['LexendVariable', ...defaultTheme.fontFamily.sans],
       },
+      gridAutoColumns: {
+        track: `272px`,
+      },
     },
   },
   plugins: [require('@tailwindcss/forms')],

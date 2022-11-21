@@ -14,7 +14,7 @@ export type BoardProps = {
 }
 const Board = ({ columns }: BoardProps) => {
   return (
-    <div className="grid grid-flow-col gap-x-2">
+    <div className="grid auto-cols-track grid-flow-col gap-x-2">
       {columns.map((cards, index) => (
         <Column cards={cards} key={index} />
       ))}
